@@ -1,5 +1,3 @@
-import { CheckSquareOutlined } from '@ant-design/icons';
-import React from 'react'
 import Applicant from '../../molecules/Applicant';
 import Dropdown from '../../molecules/Dropdown';
 import check from '../../../images/Default.svg'

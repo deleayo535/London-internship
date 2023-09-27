@@ -1,7 +1,5 @@
-import React from 'react'
 import image from '../../../images/Frame 501.png'
 import check from '../../../images/Default.svg'
-import { CheckSquareOutlined } from '@ant-design/icons';
 import { ApplicantProps } from './applicant.tpyes';
 
 function Applicant ({

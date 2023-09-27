@@ -10,8 +10,6 @@
   import user from '../../../images/Users_Group.svg'
   import right from '../../../images/Chevron_Right_MD.svg'
   import image from '../../../images/Frame 501.png'
-  // import right from '../../../images/Chevron_Right_MD.svg'
-
   
   function SideMenu() {
     return (

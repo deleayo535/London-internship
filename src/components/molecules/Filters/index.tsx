@@ -1,5 +1,4 @@
-import { DownOutlined, FileAddOutlined } from "@ant-design/icons";
-import React from "react";
+import { DownOutlined } from "@ant-design/icons";
 import user from '../../../images/File_Document.svg'
 
 

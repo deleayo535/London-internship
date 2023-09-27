@@ -1,13 +1,9 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import { Button, FormInput } from './components/atoms';
+import { FormInput } from './components/atoms';
 import Dashboard from './components/organisms/Dashboard';
-import Dropdown from './components/molecules/Dropdown';
 import Filter from './components/molecules/Filters';
 import Candidate from './components/organisms/Candidates';
 import SideMenu from './components/organisms/SideMenu';
-// import classes from './App.css';
 
 function App() {
   return (

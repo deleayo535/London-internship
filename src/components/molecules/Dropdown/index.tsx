@@ -38,20 +38,20 @@
 
 // export default Dropdown;
 
-import { DownOutlined, UserOutlined } from '@ant-design/icons';
+import { DownOutlined } from '@ant-design/icons';
 import type { MenuProps } from 'antd';
-import { Button, Divider, Dropdown, message, Space, Tooltip } from 'antd';
+import { Button, Dropdown, Space } from 'antd';
 // import React from 'react';
 
-const handleButtonClick = (e: React.MouseEvent<HTMLButtonElement>) => {
-  message.info('Click on left button.');
-  console.log('click left button', e);
-};
+// const handleButtonClick = (e: React.MouseEvent<HTMLButtonElement>) => {
+//   message.info('Click on left button.');
+//   console.log('click left button', e);
+// };
 
-const handleMenuClick: MenuProps['onClick'] = (e) => {
-  message.info('Click on menu item.');
-  console.log('click', e);
-};
+// const handleMenuClick: MenuProps['onClick'] = (e) => {
+//   message.info('Click on menu item.');
+//   console.log('click', e);
+// };
 
 const items: MenuProps['items'] = [
   {
@@ -129,7 +129,6 @@ const items: MenuProps['items'] = [
 
 const menuProps = {
   items,
-  // onClick: handleMenuClick,
 };
 
 const App: React.FC = () => (

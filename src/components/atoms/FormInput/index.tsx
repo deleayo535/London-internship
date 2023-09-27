@@ -1,13 +1,12 @@
-import React from 'react';
 import { inputProps } from './form.types';
 import classes from './FormInput.module.css';
 
 export const FormInput = ({
   placeholder,
-  htmlFor,
-  type,
-  label,
-  rows,
+  // htmlFor,
+  // type,
+  // label,
+  // rows,
   value,
   className,
   name,
