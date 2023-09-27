@@ -1,0 +1,38 @@
+.App {
+  /* text-align: center; */
+  background-color: #f6f8fa;
+  width: 100%;
+  height: 100%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  
+}
+
+.App-body {
+  background-color: #f6f8fa;
+  min-height: 100vh;
+  padding: 20px;
+  /* padding-right: 30px; */
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+  /* font-size: calc(10px + 2vmin); */
+  color: black;
+}
+
+
+
+.signInput {
+  width: 400px;
+  background-color: #9AA6AC;
+  color: #9AA6AC;
+}
+
+:where(.css-dev-only-do-not-override-1ck3jst).ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-item {
+  padding: 14px 18px;
+  font-size: 18px;
+  width: 330px;
+  font-weight: 500;
+}

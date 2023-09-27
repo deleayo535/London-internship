@@ -1,0 +1,13 @@
+.button {
+  font-family: ModernEra, sans-serif;
+  font-size: 1rem;
+  line-height: 1;
+  text-align: center;
+  font-weight: 700;
+  max-width: 100%;
+  border-radius: 4px;
+  padding: 0.75rem 1rem;
+  color: rgb(255, 255, 255);
+  background: rgb(2, 90, 101);
+  border: none;
+}
