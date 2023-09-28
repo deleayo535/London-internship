@@ -15,3 +15,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:where(.css-dev-only-do-not-override-1ck3jst).ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-item {
+  padding: 14px 18px;
+  font-size: 18px;
+  width: 330px;
+  font-weight: 500;
+}

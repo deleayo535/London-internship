@@ -23,7 +23,7 @@ function App() {
           <div className='flex justify-between space-between space-x-8 w-[100%]'>
             <div className=' w-[30%]'>
               <Dashboard/>
-              <div className='mt-6 text-sxm'>
+              <div className='mt-6 text-sxm w-[100%]'>
                 <FormInput placeholder={'search by name, edu, exp or #tag'}  className='signInput'/>
               </div>
               <Filter/>
