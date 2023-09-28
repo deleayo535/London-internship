@@ -38,7 +38,7 @@ const menuProps = {
   };
 
 function VideoComponent (){
-    return <div className='flex justify-center items-center space-x-4'>
+    return <div className='flex justify-center items-center w-full space-x-4'>
         <div className='flex space-x-2 border-r-2 pr-4 h-[30px] justify-center items-center cursor-pointer'>
             <div className='bg-[white] hover:bg-[#E9EFFF] rounded-lg flex w-[40px] h-[40px] justify-center items-center'>
 
